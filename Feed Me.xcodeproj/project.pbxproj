@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0D9195BD224A6985008098C3 /* FeedmeHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9195BC224A6985008098C3 /* FeedmeHelpers.swift */; };
 		0D9195BF224A7F7F008098C3 /* PlaceMarkerForFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9195BE224A7F7F008098C3 /* PlaceMarkerForFood.swift */; };
+		0D9195C1224A930A008098C3 /* SomeConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9195C0224A930A008098C3 /* SomeConstant.swift */; };
 		0E9DAE561BDA80A4009DA461 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E9DAE551BDA80A4009DA461 /* LaunchScreen.storyboard */; };
 		461E8D992A720145A9E20338 /* Pods_Feed_Me.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A76A998E5BC9094E04A519 /* Pods_Feed_Me.framework */; };
 		B48F646E19B22EB200710BEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48F646D19B22EB200710BEB /* AppDelegate.swift */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		0D9195BC224A6985008098C3 /* FeedmeHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedmeHelpers.swift; sourceTree = "<group>"; };
 		0D9195BE224A7F7F008098C3 /* PlaceMarkerForFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceMarkerForFood.swift; sourceTree = "<group>"; };
+		0D9195C0224A930A008098C3 /* SomeConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeConstant.swift; sourceTree = "<group>"; };
 		0E9DAE551BDA80A4009DA461 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15A76A998E5BC9094E04A519 /* Pods_Feed_Me.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Feed_Me.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6504C8534735AC4D678E8A95 /* Pods-Feed Me.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feed Me.release.xcconfig"; path = "Pods/Target Support Files/Pods-Feed Me/Pods-Feed Me.release.xcconfig"; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				B48F646D19B22EB200710BEB /* AppDelegate.swift */,
+				0D9195C0224A930A008098C3 /* SomeConstant.swift */,
 				B48F648A19B22EFC00710BEB /* Controllers */,
 				B48F648B19B22F0600710BEB /* Model */,
 				B48F648C19B22F0B00710BEB /* Views */,
@@ -279,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D9195BF224A7F7F008098C3 /* PlaceMarkerForFood.swift in Sources */,
+				0D9195C1224A930A008098C3 /* SomeConstant.swift in Sources */,
 				B48F646E19B22EB200710BEB /* AppDelegate.swift in Sources */,
 				B48F649219B22F9400710BEB /* GoogleDataProvider.swift in Sources */,
 				B48F649319B22F9400710BEB /* GooglePlace.swift in Sources */,

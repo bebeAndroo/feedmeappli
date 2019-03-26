@@ -1,1 +1,5 @@
-FeedmeHelpers.swift
+
+
+# ignore a single file
+SomeConstants.swift
+

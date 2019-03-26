@@ -33,7 +33,7 @@
 import UIKit
 import GoogleMaps
 
-let googleApiKey = FeedmeHelpers.APIKEY
+let googleApiKey = SomeConstants.API_KEY
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

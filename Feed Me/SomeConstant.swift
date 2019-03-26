@@ -30,8 +30,8 @@ import Foundation
 import UIKit
 
 
-public class FeedmeHelpers {
+public class SomeConstants {
   
-  public static let APIKEY: String = " "
   
+  public static let API_KEY = ""
 }
