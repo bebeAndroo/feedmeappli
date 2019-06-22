@@ -37,13 +37,14 @@ class MapViewController: UIViewController {
   
   private let locationManager = CLLocationManager()
   private let dataProvider = GoogleDataProvider()
-  private let searchRadius: Double = 1000
+  private let searchRadius: Double = 9000
   
   @IBOutlet private weak var adressLbl: UILabel!
   @IBOutlet private weak var mapView: GMSMapView!
   @IBOutlet private weak var mapCenterPinImage: UIImageView!
   @IBOutlet private weak var pinImageVerticalConstraint: NSLayoutConstraint!
   var searchedTypes = ["bakery", "bar", "cafe", "grocery_or_supermarket", "restaurant"]
+  var searchBrands = ["carrefour", "auchan", "lidl"]
   
   
   

@@ -33,5 +33,5 @@ import UIKit
 public class SomeConstants {
   
   
-  public static let API_KEY = ""
+  public static let API_KEY = "AIzaSyDWbms_vxV5biiRd72nejQXVlx3aDN2V_w"
 }

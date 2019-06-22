@@ -4,7 +4,7 @@ PODS:
   - GoogleMaps/Base (2.7.0)
   - GoogleMaps/Maps (2.7.0):
     - GoogleMaps/Base
-  - SwiftyJSON (4.0.0)
+  - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
   - GoogleMaps
@@ -17,7 +17,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
-  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
 PODFILE CHECKSUM: 2dab2d46cc2e1863cc6329de75247f962bc3acbf
 
