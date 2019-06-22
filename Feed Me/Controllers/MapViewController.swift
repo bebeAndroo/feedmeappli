@@ -59,6 +59,8 @@ class MapViewController: UIViewController {
     mapView.delegate = self
   }//viewDidLoad
   
+  
+  
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     guard let navigationController = segue.destination as? UINavigationController,
       let controller = navigationController.topViewController as? TypesTableViewController else {

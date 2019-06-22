@@ -32,6 +32,7 @@ import UIKit
 
 public class SomeConstants {
   
-  
-  public static let API_KEY = "AIzaSyDWbms_vxV5biiRd72nejQXVlx3aDN2V_w"
+  public static let path = Bundle.main.path(forResource: "SomeApiKeys", ofType: "plist")
+  public static let keys = NSDictionary(contentsOfFile: path!)
+  public static let API_KEY = keys?["googleapikey"] as? String
 }

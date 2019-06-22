@@ -1,5 +1,4 @@
 
 
-# ignore a single file
-Feed Me/SomeConstant.swift
-
+# ignore a file type
+*.plist
