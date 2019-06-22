@@ -17,6 +17,7 @@ jobs:
       - run:
           name: Install CocoaPods
           command: pod install
+      - run: echo "A first hello with cocoapods"
 
       # Build the app and run tests
       - run:
@@ -25,6 +26,8 @@ jobs:
           environment:
             SCAN_DEVICE: iPhone 6
             SCAN_SCHEME: WebTests
+            
+      - run: echo "A first hello after build and run"
 
       # Collect XML test results data to show in the UI,
       # and save the same XML files under test-results folder
